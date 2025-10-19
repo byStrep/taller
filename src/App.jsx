@@ -358,6 +358,3 @@ function mapEstado(s){
     entregado:"Entregado"
   }[s] || s);
 }
-
-function newClient(){ return { id:(crypto?.randomUUID?.()||Date.now()+""), nombre:"", telefono:"", email:"" }; }
-function newTech(){ return { id:(crypto?.randomUUID?.()||Date.now()+""), nombre:"", usuario:"", password:"" }; }
